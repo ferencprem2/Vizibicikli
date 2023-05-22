@@ -1,10 +1,19 @@
-﻿namespace ConsoleApp1
+﻿using System.IO;
+
+namespace ConsoleApp1
 {
     internal class Program
     {
+        List<Kolcsonzes> kolcsonzesek = new();
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            
+        }
+
+
+        static void ReadFile()
+        {
+
         }
     }
-}
+} 
